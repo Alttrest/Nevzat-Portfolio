@@ -4,22 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nezbat | Full-Stack Geliştirici Portfolyosu</title>
+    <title>Nezbat | Game Designer & Backend Coder</title>
     
-    <meta name="description" content="Full-Stack, Yazılım Mimarisi ve Siber Teknoloji tutkunu bir geliştiricinin portfolyosu.">
-    <meta name="keywords" content="Nezbat, Portfolyo, Full-Stack, Backend, React, Node.js, Geliştirici">
+    <meta name="description" content="Video Game Designer, Backend Coder ve Altyapı Çözümleri geliştiren bir yazılımcının portfolyosu.">
+    <meta name="keywords" content="Nezbat, Portfolyo, Game Design, Backend, Robotik, Altyapı">
     <meta name="author" content="Nezbat">
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
 
     <style>
-        /* Modern Premium Renk Paleti - CYBER PURPLE */
+        /* Tasarım kuralları sabit bırakıldı */
         :root {
             --bg-color: #0A0510;
             --card-bg: rgba(20, 10, 30, 0.6);
-            --primary: #A855F7; /* Siber Mor */
+            --primary: #A855F7; 
             --primary-glow: rgba(168, 85, 247, 0.4);
-            --secondary: #EC4899; /* Neon Pembe */
+            --secondary: #EC4899; 
             --secondary-glow: rgba(236, 72, 153, 0.4);
             --danger: #F43F5E;
             --text-main: #F3E8FF;
@@ -102,7 +102,6 @@
         .terminal-body span.prompt { color: var(--secondary); margin-right: 10px; }
         .terminal-body span.cmd { color: var(--primary); }
 
-        /* Orijinal Geçişli (Gradient) Yazı Efekti ve Tıklanabilir İsim */
         h1 {
             font-size: 5.5rem; line-height: 1.1; margin-bottom: 20px; letter-spacing: -2.5px; font-weight: 800;
             background: linear-gradient(135deg, #FFFFFF 0%, #D8B4FE 100%);
@@ -135,7 +134,7 @@
         .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border-light); margin-left: 20px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 30px; }
 
-        /* Kartlar (Parlama Animasyonlu) */
+        /* Kartlar */
         .card {
             background: var(--card-bg); border-radius: 20px; padding: 40px 35px;
             backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
@@ -195,7 +194,7 @@
         .achievement-icon { font-size: 2.5rem; }
         .achievement-text { color: #E2E8F0; font-size: 1.05rem; }
 
-        /* NEBULA EFEKTİ ALT KISIM */
+        /* NEBULA EFEKTİ */
         .nebula-bg {
             position: absolute; bottom: 0; left: 0; width: 100%; height: 350px;
             overflow: hidden; pointer-events: none; z-index: 1;
@@ -291,7 +290,7 @@
             </div>
             <div class="terminal-body">
                 <span class="prompt">admin@nebula:~$</span> <span class="cmd">whoami</span><br>
-                <span>Nezbat (Full-Stack Geliştirici)</span>
+                <span>Nezbat (Game Designer & Backend Coder)</span>
             </div>
         </div>
 
@@ -308,17 +307,16 @@
         <div class="about-content">
             <div class="about-text reveal delay-1">
                 <p>
-                    Ben Nezbat. Karmaşık problemleri zarif kod bloklarıyla çözmeyi seven, <strong>uçtan uca (Full-Stack)</strong> sistemler tasarlayan bir geliştiriciyim.
+                    Ben Nezbat. Oyun mekaniklerini tasarlamayı, sistemlerin arka planını (backend) kodlamayı ve güncel altyapı sorunlarına modern çözümler geliştirmeyi sağlayan bir geliştiriciyim.
                     <br><br>
-                    <strong>Modern Web Mimarileri</strong>, <strong>API Geliştirme</strong> ve <strong>Siber Güvenlik</strong> temelleri üzerine yoğunlaşıyorum.
-                    Teknolojinin sınırlarını zorlarken, kodun sadece çalışmasını değil, aynı zamanda güvenli ve ölçeklenebilir olmasını hedefliyorum.
+                    <strong>Video Game Design</strong>, <strong>Backend Mimarisi</strong> ve donanım tarafında <strong>Robotik</strong> üzerine odaklanıyorum. Kodun çalışmasından ziyade, ölçeklenebilir ve mantıklı bir düzleme oturması önceliğimdir.
                 </p>
 
                 <div class="achievement-badge">
-                    <div class="achievement-icon">🌌</div>
+                    <div class="achievement-icon">🏆</div>
                     <div class="achievement-text">
-                        <strong>Sistem Mimarisi</strong><br>
-                        "Aydınlık" fikirleri karanlık temalar ve sağlam altyapılarla birleştiriyorum.
+                        <strong>Jüri Özel Ödülü</strong><br>
+                        Geliştirdiğimiz otonom sistem ile Mini Sumo robot kategorisinde Jüri Özel Ödülü'nü kazandım.
                     </div>
                 </div>
             </div>
@@ -333,9 +331,9 @@
                     <div style="font-size: 0.9rem; line-height: 2; color: var(--text-muted);">
                         <span style="color: var(--secondary);">profile:</span><br>
                         &nbsp;&nbsp;<span style="color: var(--primary);">name:</span> <span style="color: #F3E8FF;">"Nezbat"</span><br>
-                        &nbsp;&nbsp;<span style="color: var(--primary);">role:</span> <span style="color: #F3E8FF;">"Software Engineer"</span><br>
-                        &nbsp;&nbsp;<span style="color: var(--primary);">focus:</span> <span style="color: #F3E8FF;">"Backend & Scalability"</span><br>
-                        &nbsp;&nbsp;<span style="color: var(--primary);">stack:</span> [<span style="color: #F3E8FF;">"Python"</span>, <span style="color: #F3E8FF;">"Node.js"</span>, <span style="color: #F3E8FF;">"React"</span>]<br>
+                        &nbsp;&nbsp;<span style="color: var(--primary);">role:</span> <span style="color: #F3E8FF;">"Game Designer & Backend Coder"</span><br>
+                        &nbsp;&nbsp;<span style="color: var(--primary);">focus:</span> <span style="color: #F3E8FF;">"Altyapı Çözümleri & Robotik"</span><br>
+                        &nbsp;&nbsp;<span style="color: var(--primary);">stack:</span> [<span style="color: #F3E8FF;">"Python"</span>, <span style="color: #F3E8FF;">"C++"</span>, <span style="color: #F3E8FF;">"Node.js"</span>]<br>
                         &nbsp;&nbsp;<span style="color: var(--primary);">theme:</span> <span style="color: #F3E8FF;">"Cyber Purple"</span><br>
                         &nbsp;&nbsp;<span style="color: var(--primary);">status:</span> <span style="color: #10B981;">"Online"</span>
                     </div>
@@ -348,32 +346,32 @@
         <h2 class="section-title reveal"><span class="number">02.</span> Neler Yapıyorum?</h2>
         <div class="grid">
             <div class="card reveal delay-1">
-                <h3>⚙️ Backend Sistemleri</h3>
-                <p>Veritabanı tasarımı, mikroservis mimarileri ve yüksek trafik kaldırabilen güvenli RESTful/GraphQL API'ler geliştiriyorum.</p>
+                <h3>🎮 Video Game Design</h3>
+                <p>Oyun mekaniklerini kurguluyor, oyun motorları içerisinde algoritmalar tasarlıyor ve oyuncu deneyimini şekillendiriyorum.</p>
                 <div class="tags">
-                    <span class="tag">Node.js</span>
-                    <span class="tag">Python</span>
-                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">Game Logic</span>
+                    <span class="tag">C# / C++</span>
+                    <span class="tag">Design</span>
                 </div>
             </div>
 
             <div class="card reveal delay-2">
-                <h3>💻 Frontend Çözümleri</h3>
-                <p>Arka plandaki gücü, kullanıcıların etkileşime girebileceği modern, reaktif ve şık arayüzlere dönüştürüyorum.</p>
+                <h3>⚙️ Backend Sistemleri</h3>
+                <p>Oyun ve uygulamaların veri akışını yönetecek kararlı ve yüksek performanslı arka plan mimarilerini kodluyorum.</p>
                 <div class="tags">
-                    <span class="tag">React.js</span>
-                    <span class="tag">Next.js</span>
-                    <span class="tag">Tailwind</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Veritabanı</span>
                 </div>
             </div>
 
             <div class="card reveal delay-3">
-                <h3>🛡️ DevOps & Güvenlik</h3>
-                <p>Uygulamaların sunucu yapılandırmalarını (deployment) yapıyor, CI/CD süreçlerini otomatize edip sistem güvenliğini sağlıyorum.</p>
+                <h3>🛠️ Altyapı Çözümleri</h3>
+                <p>Güncel sistem veya ağ sorunlarını inceliyor, sorun tespiti yapıyor ve stabilizasyon için altyapı iyileştirmeleri geliştiriyorum.</p>
                 <div class="tags">
-                    <span class="tag">Docker</span>
-                    <span class="tag">Linux</span>
-                    <span class="tag">AWS</span>
+                    <span class="tag">Troubleshooting</span>
+                    <span class="tag">Sistem Mimarisi</span>
+                    <span class="tag">Optimizasyon</span>
                 </div>
             </div>
         </div>
@@ -383,19 +381,20 @@
         <h2 class="section-title reveal"><span class="number">03.</span> Seçilmiş Çalışmalar</h2>
         <div class="grid">
             <div class="card reveal delay-1">
-                <span class="devlog-badge"><span class="dot"></span> Yayında</span>
-                <h3>🌌 Nebula E-Commerce</h3>
-                <p>Yüksek performanslı, server-side rendering (SSR) destekli, tam kapsamlı yeni nesil e-ticaret platformu altyapısı.</p>
+                <span class="devlog-badge"><span class="dot"></span> Aktif Geliştirme</span>
+                <h3>🤖 Robotic Arm</h3>
+                <p>Python GUI ile bilgisayar üzerinden kontrol edilebilen, acil durdurma (e-stop) fonksiyonlu donanım ve yazılım entegrasyonu projesi.</p>
                 <div class="tags">
-                    <span class="tag">Next.js</span>
-                    <span class="tag">Stripe API</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">Arduino</span>
                 </div>
-                <a onclick="openDetailModal('nebula_commerce')" class="card-link">İncele</a>
+                <a onclick="openDetailModal('robotic_arm')" class="card-link">İncele</a>
             </div>
 
             <div class="card reveal delay-2">
                 <h3>⚡ CyberTask Manager</h3>
-                <p>Gerçek zamanlı WebSockets kullanarak ekipler arası anlık senkronizasyon sağlayan, uçtan uca şifreli görev yönetim uygulaması.</p>
+                <p>Gerçek zamanlı WebSockets kullanarak ekipler arası anlık senkronizasyon sağlayan görev yönetim uygulaması.</p>
                 <div class="tags">
                     <span class="tag">Socket.io</span>
                     <span class="tag">Node.js</span>
@@ -411,11 +410,11 @@
             <div class="card reveal delay-1">
                 <div style="font-size: 3rem; margin-bottom: 10px;">👾</div>
                 <h3>Nezbat</h3>
-                <p style="color: var(--primary); font-weight: 600; margin-bottom: 10px;">Full-Stack Geliştirici & Mimari</p>
-                <p>Ekibin arka plan sistemlerini ve API altyapılarını tasarlayan, projeleri ayaklandıran ana motor.</p>
+                <p style="color: var(--primary); font-weight: 600; margin-bottom: 10px;">Game Designer & Backend</p>
+                <p>Oyun mekaniklerini ve arka plan servislerini kodlayan, güncel altyapı sorunlarını çözen ana motor.</p>
                 <div class="tags">
+                    <span class="tag">Game Design</span>
                     <span class="tag">Backend</span>
-                    <span class="tag">Sistem Mimarisi</span>
                 </div>
             </div>
 
@@ -437,7 +436,7 @@
                     <svg style="width: 20px; height: 20px; margin-left: 5px; opacity: 0.7;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                 </h3>
                 <p style="color: var(--primary); font-weight: 600; margin-bottom: 10px;">Ar-Ge, Robotik & Python</p>
-                <p>Otonom sistemler, mini sumo algoritmaları ve Python ile donanım/yazılım entegrasyonu sağlayan mucit.</p>
+                <p>Otonom sistemler, mini sumo algoritmaları ve Python ile donanım/yazılım entegrasyonu sağlayan ekip arkadaşı.</p>
                 <div class="tags">
                     <span class="tag">Robotik</span>
                     <span class="tag">Yapay Zeka</span>
@@ -453,7 +452,7 @@
             <div class="nebula-blob"></div>
         </div>
         
-        <footer title="Sistem donanımımı görmek için tıkla!" onclick="toggleUsesModal()">
+        <footer title="Gizli sistem modülünü açmak için tıkla!" onclick="toggleUsesModal()">
             <div class="glow-effect"></div>
             <p>Built in the Nebula <span style="font-size: 1.2rem;">🌌</span> & Code by Nezbat</p>
         </footer>
@@ -466,7 +465,7 @@
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 4rem; margin-bottom: 10px; animation: blink 2s infinite;">👾</div>
                 <h3 style="color: var(--text-main); font-size: 1.5rem; margin-bottom: 5px;">Sistem Modülü</h3>
-                <p style="color: var(--primary); font-family: 'Fira Code', monospace; font-size: 0.9rem;">Setup & Donanım</p>
+                <p style="color: var(--primary); font-family: 'Fira Code', monospace; font-size: 0.9rem;">Donanım & İlgi Alanları</p>
             </div>
 
             <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 25px; border-top: 1px solid var(--border-light); padding-top: 25px;">
@@ -477,22 +476,22 @@
             </div>
 
             <p style="color: var(--text-muted); margin-bottom: 35px; line-height: 1.7;">
-                Geliştirme süreçlerimde bana hız katan donanım ve yazılım tercihlerim:
+                Geliştirme süreçlerinde bana eşlik eden ana modüller:
             </p>
 
             <div class="uses-item">
                 <div class="uses-icon">💻</div>
                 <div>
                     <h4 style="color: var(--primary); margin-bottom: 5px; font-size: 1.1rem;">Geliştirme Ortamı</h4>
-                    <p style="color: var(--text-main); font-family: 'Fira Code', monospace; font-size: 0.95rem;">VS Code (SynthWave '84 Theme) <br> Linux Terminal (Zsh)</p>
+                    <p style="color: var(--text-main); font-family: 'Fira Code', monospace; font-size: 0.95rem;">VS Code / Python / C++ <br> Linux Terminal</p>
                 </div>
             </div>
 
             <div class="uses-item">
                 <div class="uses-icon">🎧</div>
                 <div>
-                    <h4 style="color: var(--primary); margin-bottom: 5px; font-size: 1.1rem;">Odaklanma</h4>
-                    <p style="color: var(--text-main); font-size: 0.95rem;">Aktif Gürültü Engelleyici <br> Cyberpunk & Synthwave Müzikler</p>
+                    <h4 style="color: var(--primary); margin-bottom: 5px; font-size: 1.1rem;">Odaklanma & İlgi Alanı</h4>
+                    <p style="color: var(--text-main); font-size: 0.95rem;">Aktif Gürültü Engelleyici <br> <span style="font-size: 0.85rem; color: var(--secondary);">(addicted to wemmbu)</span></p>
                 </div>
             </div>
 
@@ -514,10 +513,10 @@
 
     <script>
         const projectData = {
-            "nebula_commerce": {
-                title: "Nebula E-Commerce 🌌",
-                summary: "<b>Hızlı ve Güvenli Alışveriş Deneyimi</b><br><br>Gelişmiş ödeme sistemleri entegre edilmiş, modern mimarisi sayesinde saniyenin altında sayfa yüklenme hızına sahip e-ticaret uygulaması.",
-                sources: [{ name: "Canlı Demo", url: "#" }]
+            "robotic_arm": {
+                title: "Robotik Kol (Robotic Arm) 🤖",
+                summary: "<b>Hassas Kontrol ve Otomasyon</b><br><br>Python tabanlı bir grafik arayüzü (GUI) ve C++ ile kodlanmış algoritmalar aracılığıyla step motorların bilgisayar üzerinden hassas kontrolünü sağlayan projedir. Sisteme entegre edilmiş acil durdurma (e-stop) güvenlik mekanizmaları içerir.",
+                sources: [{ name: "Proje Kodları", url: "#" }]
             },
             "cyber_task": {
                 title: "CyberTask Manager ⚡",
@@ -580,7 +579,7 @@
         });
 
         const textElement = document.getElementById('typing');
-        const phrases = ["Full-Stack Geliştirici", "Yazılım Mühendisi", "Sistem Mimarı", "Siber Güvenlik Meraklısı"];
+        const phrases = ["Video Game Designer", "Backend Coder", "Güncel Altyapı Çözümleri", "Robotik Tutkunu"];
         let pIdx = 0; let cIdx = 0; let isDel = false;
         function type() {
             const cur = phrases[pIdx];
